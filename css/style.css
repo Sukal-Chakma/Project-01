@@ -18,6 +18,10 @@ body{
     color: #30b868;
     font-weight: 900;
 }
+.nav .logo{
+    padding-bottom: 16px;
+    margin-left: 120px;
+}
 .btn{
     background-color: #30b868;
     border: none;
@@ -26,6 +30,12 @@ body{
     font: 600;
     font-size: 16px;
     margin-left: 346px;
+    margin-right: 120px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #ffffff;
+    
 }
 /* main styles  */
 header{
@@ -60,7 +70,7 @@ nav .menu a{
 header .banner{
     border: 1px solid black;
     width: 100%;
-    max-width: 1600px;
+    max-width:1600px;
     background-image: url("../images/hero-bg.png");
     background-repeat: no-repeat;
     margin: 0px auto;
@@ -89,6 +99,11 @@ header .banner{
     font-weight: 600;
     font-size: 16px;
     margin-bottom: 16px;
+    cursor: pointer;
+}
+.text-heading button:hover{
+    background-color: rgb(232, 142, 24);
+    color: #000000;
 }
 .text-heading .heading h1 b{
     color: #ffffff;
@@ -113,7 +128,16 @@ font-size: 2em;
 }
 
 .banner-container .text-down .bt{
-    border: 1px solid white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 16px;
+    font: 600;
+    font-size: 16px;
     padding: 12px 16px;
-    background-color: ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.banner-container .text-down .bt:hover{
+    background-color: #30b868;
+    
 }
