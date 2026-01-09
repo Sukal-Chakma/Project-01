@@ -31,11 +31,12 @@ body{
 header{
     background-color: #ffffff;
     padding-top: 30px;
-
+    
 }
 header .nav{
     /* border: 1px solid black; */
     width: 1600px;
+    max-width: 1600px;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
@@ -45,11 +46,74 @@ nav .menu{
     display: flex;
     list-style: none;
     gap: 32px;
-
+    
 }
 nav .menu a{
     font-size: 16px;
     color: #000000;
     font-weight: 500;
     text-decoration: none;
+}
+
+/* Hero section  */
+
+header .banner{
+    border: 1px solid black;
+    width: 100%;
+    max-width: 1600px;
+    background-image: url("../images/hero-bg.png");
+    background-repeat: no-repeat;
+    margin: 0px auto;
+    
+}
+.banner .banner-container{
+    width: 1360px;
+    /* border: 1px solid red; */
+    margin: 115.5px 120px 179.5px 120px;
+    list-style: none;
+    
+
+}
+.banner-container .text-heading{
+    /* border: 2px solid yellow; */
+    width: 770px;
+    align-items: center;
+    margin: 0px 270.5px 16px 270.5px;
+    text-align: center;
+}
+.text-heading button{
+    background-color: #ffffff;
+    color: #30b868;
+    border-radius: 12px;
+    padding: 8px 30px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.text-heading .heading h1 b{
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 2em;
+}
+.text-heading .heading h1 span{
+color: #30b868;
+font-weight: 900;
+font-size: 2em;
+}
+.banner-container .text{
+    color: #ffffff;
+    text-align: center;
+}
+.banner-container .text-down{
+    margin: 32px auto 0px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    
+}
+
+.banner-container .text-down .bt{
+    border: 1px solid white;
+    padding: 12px 16px;
+    background-color: ;
 }
