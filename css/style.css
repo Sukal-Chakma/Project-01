@@ -247,11 +247,55 @@ font-size: 2em;
     font-size: 16px;
     border-radius: 4px;
     border: none;
-    color:white;
+    color:#000000;
     background-color: #30B868;
     margin: 24px 0;
+}
+.think-container button:hover{
+    background-color: #ffffff;
 }
 .think-container img{
     padding-left: 8px;
     vertical-align: middle;
+}
+/* footer  */
+#footer{
+    background:#001931;
+    padding:25px 30px;
+    margin: auto;
+    height: 380px;
+}
+
+.footer-container{
+    max-width:1200px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.footer-logo img{
+    padding-bottom: 16px;
+    margin-left: 120px;
+}
+.footer-title-social{
+    text-align:center;
+}
+
+.social-title{
+    color:#fff;
+    margin-bottom:10px;
+    font-size:16px;
+    letter-spacing:1px;
+}
+.social-icons a{
+    color:#fff;
+    margin:0 8px;
+    font-size:18px;
+    transition:0.3s;
+}
+.protap{
+    text-align:center;
+    color:white;
+    margin-top:15px;
+    font-size:14px;
 }
