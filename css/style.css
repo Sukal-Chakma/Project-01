@@ -141,3 +141,117 @@ font-size: 2em;
     background-color: #30b868;
     
 }
+
+/* about */
+#about{ 
+    padding-top: 45px;
+    text-align: center;
+}
+#about h2{
+    font-size: 48px;
+    margin: 0 120px;
+    padding-bottom: 16px;
+}
+#about p{
+    font-size: 16px;
+    line-height: 24px;
+}
+.about-container{
+    display:flex;
+    justify-content: space-around;
+    margin: 44px; 120px;
+    gap: 24px;
+}
+.about-container .box img{
+    background-color: #f95555;
+    border-radius: 50%;
+    padding: 8px;
+}
+#about .about-container .box{
+    margin-top: 48px;
+    padding: 70px 24px 0 24px;
+    width: 322px;
+    height: 300px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+} 
+#about .about-container .box h4{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 16px 0;
+}
+#about .box p{
+    color: #627382;
+    font-size: 15px;
+    line-height: 20px;
+}
+/* solution  */
+#brain{
+    display:flex;
+    margin-top: 120px;
+    margin-left: 120px;
+    gap: 60px;
+}
+#brain .brain-text{
+    margin: 101.5px 0;
+    padding-right: 200px;
+}
+#brain .brain-text span{
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B868
+}
+#brain .brain-text h1{
+    margin: 16px 0;
+    font-size: 48px;
+    font-weight: 700;
+}
+#brain .brain-text p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #627382;
+    margin-bottom: 40px;
+    margin-right: 180px;
+}
+#brain .brain-text ul li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 700px;
+    line-height: 20px;
+}
+.brain-text ul .right-sign{
+    display: flex;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+/* section  */
+#think .think-container{
+    text-align: center;
+    margin: 2px 120px 120px 120px;
+    padding: 80px 40px;
+    background-color: #F7F6F2;
+}
+.think-container h1{
+    font-weight: 800px;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+.think-container p{
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 275px;
+    color: #627382;
+}
+.think-container button{
+    padding: 12px 16px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    color:white;
+    background-color: #30B868;
+    margin: 24px 0;
+}
+.think-container img{
+    padding-left: 8px;
+    vertical-align: middle;
+}
