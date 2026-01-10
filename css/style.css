@@ -4,21 +4,18 @@
     box-sizing: border-box;
 }
 
-body{
-    /* background-color: burlywood; */
-}
 /* shared styles  */
 .font-open-sans{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
  
 }
-.nav h2{
+#nav h2{
     width: 71px;
     color: #30b868;
     font-weight: 900;
 }
-.nav .logo{
+#nav .logo{
     padding-bottom: 16px;
     margin-left: 120px;
 }
@@ -43,7 +40,7 @@ header{
     padding-top: 30px;
     
 }
-header .nav{
+header #nav{
     /* border: 1px solid black; */
     width: 1600px;
     max-width: 1600px;
@@ -67,7 +64,7 @@ nav .menu a{
 
 /* Hero section  */
 
-header .banner{
+#banner{
     border: 1px solid black;
     width: 100%;
     max-width:1600px;
@@ -76,7 +73,7 @@ header .banner{
     margin: 0px auto;
     
 }
-.banner .banner-container{
+#banner .banner-container{
     width: 1360px;
     /* border: 1px solid red; */
     margin: 115.5px 120px 179.5px 120px;
@@ -159,7 +156,7 @@ font-size: 2em;
 .about-container{
     display:flex;
     justify-content: space-around;
-    margin: 44px; 120px;
+    margin: 44px 120px;
     gap: 24px;
 }
 .about-container .box img{
@@ -263,7 +260,7 @@ font-size: 2em;
     background:#001931;
     padding:25px 30px;
     margin: auto;
-    height: 380px;
+    height: 250px;
 }
 
 .footer-container{
